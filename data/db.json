@@ -1,0 +1,28 @@
+{
+  "articles" : [
+    {
+      "title": "my first post",
+      "content": "this is a new post content right here to show!",
+      "author": "John Doe",
+      "id": 1
+    },
+    {
+      "title": "my second post",
+      "content": "this is a salt news post content right here to show!",
+      "author": "Mary Doe",
+      "id": 2
+    },
+    {
+      "title": "my third post",
+      "content": " Loren this is a new post content right here to show!",
+      "author": "John Doe",
+      "id": 3
+    },
+    {
+      "title": "my other post",
+      "content": "this is a post for my fouth post again",
+      "author": "Kate Steve",
+      "id": 4
+    }
+  ]
+}
