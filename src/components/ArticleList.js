@@ -1,15 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ArticleList({ articles }) {
-  // const articles = props.articles;
-
   return (
     <div className="article-list">
       {articles.map((article) => (
         <div className="article-preview" key={article.id}>
-          <h3>{article.title}</h3>
+          <Link to={`/articles/${article.id}`}>
+            <h3>{article.title}</h3>
+          </Link>
           <p>Written by {article.author} </p>
-          {/* <button onClick={() => handleDelete(article.id)}>Delete</button> */}
         </div>
       ))}
     </div>
