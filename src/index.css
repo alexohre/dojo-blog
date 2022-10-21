@@ -39,6 +39,11 @@
   margin: 40px auto;
   padding: 20px;
 }
+.create-article{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
 
 /* article previews / list */
 .article-preview {

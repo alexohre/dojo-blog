@@ -1,6 +1,7 @@
 import React from "react";
 import ArticleList from "../components/ArticleList";
 import data_fetch from "../useFetch";
+import Nav from "../shared/Nav";
 
 function Home() {
   const {
@@ -14,7 +15,8 @@ function Home() {
   // };
 
   return (
-    <div className="home">
+    <div className="content">
+      <Nav />
       {error && <div> {error} </div>}
       {isLoading && <div>Loading...</div>}
       {articles && <ArticleList articles={articles} />}

@@ -1,14 +1,15 @@
 import Home from "./pages/Home";
-import Nav from "./shared/Nav";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import CreateArticle from "./components/CreateArticle";
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <div className="content">
-        <Home />
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/new" element={<CreateArticle />} />
+      </Routes>
+    </Router>
   );
 }
 
