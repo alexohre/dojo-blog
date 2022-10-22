@@ -7,7 +7,7 @@ function Nav() {
       <h1>The Dojo Blog</h1>
       <div className="links">
         <Link to="/">Home</Link>
-        <Link to="/new">New Blog</Link>
+        <Link to="/new">New Article</Link>
       </div>
     </div>
   );
